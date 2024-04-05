@@ -6,7 +6,7 @@
         "file": "the-repository.unistore",
         "url": "https://github.com/The0zymandias/the-repository/raw/main/the-repository.unistore",
         "version": 3,
-        "revision": 2
+        "revision": 3
     },
     "storeContent": [
         {
@@ -34,9 +34,11 @@
                     "directory": "sdmc:/luma/plugins/0004001000021700/"
                 },
                 {
-                    "type": "downloadFile",
-                    "file": "https://github.com/FoofooTheGuy/Miichanic_Plugin/releases/download/v0.6.1B/Miichanic.3gx",
-                    "output": "sdmc:/sdmc:/luma/plugins/0004001000021700/Miichanic.3gx"
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000021700/Miichanic.3gx",
+                    "includePrereleases": false
                 }
             ]
         }
