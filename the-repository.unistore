@@ -6,7 +6,7 @@
         "file": "the-repository.unistore",
         "url": "https://github.com/The0zymandias/the-repository/raw/main/the-repository.unistore",
         "version": 3,
-        "revision": 24
+        "revision": 26
     },
     "storeContent": [
         {
@@ -412,6 +412,117 @@
                 {
                     "type": "promptMessage",
                     "message": "See https://diovento.wordpress.com/snspum/ for documentation.\nIt is recommeded to back up your current Ultra Moon save and then \nreset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "Expanded (Recommended)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunExpandedv1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for documentation.\nIt is recommeded to back up your current Ultra Sun save and then \nreset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "Lite": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunLitev1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for documentation.\nIt is recommeded to back up your current Ultra Sun save and then \nreset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "Legit": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunLegitv1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for documentation.\nIt is recommeded to back up your current Ultra Sun save and then \nreset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "Documentation": [
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for documentation.\nIt is recommeded to back up your current Ultra Sun save and then \nreset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "info": {
+                "title": "Pokemon Supernova Sun",
+                "author": "Dio Vento",
+                "version": "v1.0.5",
+                "category": [
+                    "game"
+                ],
+                "console": [
+                    "3DS"
+                ],
+                "description": "A ROM hack for Pokemon Ultra Sun v1.2 featuring more availible pokemon, greater difficulty, and better balancing.",
+                "license": "none",
+                "last_updated": "Fri Apr  5 02:57:24 2024"
+            },
+            "Leveled": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunLeveledv1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for documentation.\nIt is recommeded to back up your current Ultra Sun save and then \nreset the game save file, or use OnionFS.",
                     "count": 0
                 }
             ]
