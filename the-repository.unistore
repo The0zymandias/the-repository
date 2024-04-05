@@ -1,1 +1,309 @@
-{"storeInfo": {"title": "The Repository", "author": "TheOzymandias", "description": "My collection of interesting homebrew and romhacks. NONE IS MADE BY ME", "file": "the-repository.unistore", "url": "https://github.com/The0zymandias/the-repository/raw/main/the-repository.unistore", "version": 3, "revision": 22}, "storeContent": [{"Taiwan": [{"type": "mkdir", "directory": "sdmc:/luma/plugins/"}, {"type": "mkdir", "directory": "sdmc:/luma/plugins/0004001000028700/"}, {"type": "downloadRelease", "repo": "FoofooTheGuy/Miichanic_Plugin", "file": "Miichanic.3gx", "output": "sdmc:/luma/plugins/0004001000028700/Miichanic.3gx", "includePrereleases": false}], "Japan": [{"type": "mkdir", "directory": "sdmc:/luma/plugins/"}, {"type": "mkdir", "directory": "sdmc:/luma/plugins/0004001000020700/"}, {"type": "downloadRelease", "repo": "FoofooTheGuy/Miichanic_Plugin", "file": "Miichanic.3gx", "output": "sdmc:/luma/plugins/0004001000020700/Miichanic.3gx", "includePrereleases": false}], "USA": [{"type": "mkdir", "directory": "sdmc:/luma/plugins/"}, {"type": "mkdir", "directory": "sdmc:/luma/plugins/0004001000021700/"}, {"type": "downloadRelease", "repo": "FoofooTheGuy/Miichanic_Plugin", "file": "Miichanic.3gx", "output": "sdmc:/luma/plugins/0004001000021700/Miichanic.3gx", "includePrereleases": false}], "Europe": [{"type": "mkdir", "directory": "sdmc:/luma/plugins/"}, {"type": "mkdir", "directory": "sdmc:/luma/plugins/0004001000022700/"}, {"type": "downloadRelease", "repo": "FoofooTheGuy/Miichanic_Plugin", "file": "Miichanic.3gx", "output": "sdmc:/luma/plugins/0004001000022700/Miichanic.3gx", "includePrereleases": false}], "Korea": [{"type": "mkdir", "directory": "sdmc:/luma/plugins/"}, {"type": "mkdir", "directory": "sdmc:/luma/plugins/0004001000027700/"}, {"type": "downloadRelease", "repo": "FoofooTheGuy/Miichanic_Plugin", "file": "Miichanic.3gx", "output": "sdmc:/luma/plugins/0004001000027700/Miichanic.3gx", "includePrereleases": false}], "China": [{"type": "mkdir", "directory": "sdmc:/luma/plugins/"}, {"type": "mkdir", "directory": "sdmc:/luma/plugins/0004001000026700/"}, {"type": "downloadRelease", "repo": "FoofooTheGuy/Miichanic_Plugin", "file": "Miichanic.3gx", "output": "sdmc:/luma/plugins/0004001000026700/Miichanic.3gx", "includePrereleases": false}], "info": {"title": "Miichanic", "author": "FoofooTheGuy", "version": "v0.6.1B", "category": ["utility"], "console": ["3DS"], "description": "A plugin for the Mii Editor to allow extra functions", "license": "none", "last_updated": "Thu Apr  4 22:59:31 2024"}}, {"download to SD card": [{"type": "downloadRelease", "repo": "PabloMK7/OnionFS", "file": "OnionFS.zip", "output": "sdmc:/onion.zip", "includePrereleases": false}, {"type": "extractFile", "file": "sdmc:/onion.zip", "input": "", "output": "sdmc:/"}, {"type": "deleteFile", "file": "sdmc:/onion.zip"}], "Default Plugin": [{"type": "mkdir", "directory": "sdmc:/luma/plugins/"}, {"type": "downloadRelease", "repo": "PabloMK7/OnionFS", "file": "OnionFS.zip", "output": "sdmc:/onion.zip", "includePrereleases": false}, {"type": "extractFile", "file": "sdmc:/onion.zip", "input": "", "output": "sdmc:/luma/plugins/"}, {"type": "copy", "source": "sdmc:/luma/plugins/OnionFS.3gx", "destination": "sdmc:/luma/plugins/default.3gx"}, {"type": "deleteFile", "file": "sdmc:/onion.zip"}, {"type": "deleteFile", "file": "sdmc:/luma/plugins/OnionFS.3gx"}], "info": {"title": "OnionFS", "author": "PabloMK7", "version": "v2.1", "category": ["utility"], "console": ["3DS"], "description": "ROMFS and SAVE redirection to the SD.", "license": "none", "last_updated": "Thu Apr  4 23:22:10 2024"}}]}
+{
+    "storeInfo": {
+        "title": "The Repository",
+        "author": "TheOzymandias",
+        "description": "My collection of interesting homebrew and romhacks. NONE IS MADE BY ME",
+        "file": "the-repository.unistore",
+        "url": "https://github.com/The0zymandias/the-repository/raw/main/the-repository.unistore",
+        "version": 3,
+        "revision": 23
+    },
+    "storeContent": [
+        {
+            "Taiwan": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000028700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000028700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "Japan": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000020700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000020700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "USA": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000021700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000021700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "Europe": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000022700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000022700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "Korea": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000027700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000027700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "China": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000026700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000026700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "info": {
+                "title": "Miichanic",
+                "author": "FoofooTheGuy",
+                "version": "v0.6.1B",
+                "category": [
+                    "utility"
+                ],
+                "console": [
+                    "3DS"
+                ],
+                "description": "A plugin for the Mii Editor to allow extra functions",
+                "license": "none",
+                "last_updated": "Thu Apr  4 22:59:31 2024"
+            }
+        },
+        {
+            "download to SD card": [
+                {
+                    "type": "downloadRelease",
+                    "repo": "PabloMK7/OnionFS",
+                    "file": "OnionFS.zip",
+                    "output": "sdmc:/onion.zip",
+                    "includePrereleases": false
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/onion.zip",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/onion.zip"
+                }
+            ],
+            "Default Plugin": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "PabloMK7/OnionFS",
+                    "file": "OnionFS.zip",
+                    "output": "sdmc:/onion.zip",
+                    "includePrereleases": false
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/onion.zip",
+                    "input": "",
+                    "output": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "copy",
+                    "source": "sdmc:/luma/plugins/OnionFS.3gx",
+                    "destination": "sdmc:/luma/plugins/default.3gx"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/onion.zip"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/luma/plugins/OnionFS.3gx"
+                }
+            ],
+            "info": {
+                "title": "OnionFS",
+                "author": "PabloMK7",
+                "version": "v2.1",
+                "category": [
+                    "utility"
+                ],
+                "console": [
+                    "3DS"
+                ],
+                "description": "ROMFS and SAVE redirection to the SD.",
+                "license": "none",
+                "last_updated": "Thu Apr  4 23:22:10 2024"
+            }
+        },
+        {
+            "Expanded (Recommended)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunExpandedv1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for more info. It is recommeded to back up your current Ultra Sun save and then reset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "Lite": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunLitev1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for more info. It is recommeded to back up your current Ultra Sun save and then reset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "Legit": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunLegitv1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for more info. It is recommeded to back up your current Ultra Sun save and then reset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "Documentation": [
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for documentation. It is recommeded to back up your current Ultra Sun save and then reset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ],
+            "info": {
+                "title": "Pokemon Supernova Sun",
+                "author": "Dio Vento",
+                "version": "v1.0.5",
+                "category": [
+                    "game"
+                ],
+                "console": [
+                    "3DS"
+                ],
+                "description": "A ROM hack for Pokemon Ultra Sun v1.2 featuring more availible pokemon, greater difficulty, and better balancing.",
+                "license": "none",
+                "last_updated": "Fri Apr  5 00:33:46 2024"
+            },
+            "Leveled": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/the-repository/SupernovaSunLeveledv1-0-5.7z",
+                    "output": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "sdmc:/supernovasun.7z",
+                    "input": "",
+                    "output": "sdmc:/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/supernovasun.7z"
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "See https://diovento.wordpress.com/snspum/ for more info. It is recommeded to back up your current Ultra Sun save and then reset the game save file, or use OnionFS.",
+                    "count": 0
+                }
+            ]
+        }
+    ]
+}
