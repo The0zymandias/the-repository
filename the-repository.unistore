@@ -6,25 +6,45 @@
         "file": "the-repository.unistore",
         "url": "https://github.com/The0zymandias/the-repository/raw/main/the-repository.unistore",
         "version": 3,
-        "revision": 3
+        "revision": 4
     },
     "storeContent": [
         {
-            "info": {
-                "title": "Miichanic",
-                "author": "FoofooTheGuy",
-                "version": "v0.6.1B",
-                "category": [
-                    "utility"
-                ],
-                "console": [
-                    "3DS"
-                ],
-                "description": "A plugin for the Mii Editor to allow extra functions",
-                "license": "none",
-                "last_updated": "Thu Apr  4 22:23:34 2024"
-            },
-            "English": [
+            "Taiwan": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000028700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000028700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "Japan": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000020700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000020700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "USA": [
                 {
                     "type": "mkdir",
                     "directory": "sdmc:/luma/plugins/"
@@ -40,7 +60,72 @@
                     "output": "sdmc:/luma/plugins/0004001000021700/Miichanic.3gx",
                     "includePrereleases": false
                 }
-            ]
+            ],
+            "Europe": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000022700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000022700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "Korea": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000027700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000027700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "China": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/"
+                },
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/luma/plugins/0004001000026700/"
+                },
+                {
+                    "type": "downloadRelease",
+                    "repo": "FoofooTheGuy/Miichanic_Plugin",
+                    "file": "Miichanic.3gx",
+                    "output": "sdmc:/luma/plugins/0004001000026700/Miichanic.3gx",
+                    "includePrereleases": false
+                }
+            ],
+            "info": {
+                "title": "Miichanic",
+                "author": "FoofooTheGuy",
+                "version": "v0.6.1B",
+                "category": [
+                    "utility"
+                ],
+                "console": [
+                    "3DS"
+                ],
+                "description": "A plugin for the Mii Editor to allow extra functions",
+                "license": "none",
+                "last_updated": "Thu Apr  4 22:44:00 2024"
+            }
         }
     ]
 }
