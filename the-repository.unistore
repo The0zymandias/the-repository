@@ -425,6 +425,29 @@
                 "license": "none",
                 "last_updated": "Fri Apr  5 03:06:11 2024"
             }
+        },
+        {
+            "remove": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/nintendo-virtual-boy-rom-pack/Nintendo%20-%20Virtual%20Boy.zip",
+                    "output": "sdmc:/roms/vb.zip"
+                }
+            ],
+            "info": {
+                "title": "temp",
+                "author": "a",
+                "version": "v2.1",
+                "category": [
+                    "utility"
+                ],
+                "console": [
+                    "3DS"
+                ],
+                "description": "lmfao your gust gellos",
+                "license": "none",
+                "last_updated": "Fri Apr  5 03:06:11 2024"
+            }
         }
     ]
 }
