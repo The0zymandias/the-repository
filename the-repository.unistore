@@ -2,11 +2,11 @@
     "storeInfo": {
         "title": "The Repository",
         "author": "TheOzymandias",
-        "description": "My collection of interesting homebrew and romhacks. NONE IS MADE BY ME",
+        "description": "My collection of interesting homebrew and romhacks. NONE IS MADE BY ME.",
         "file": "the-repository.unistore",
         "url": "https://github.com/The0zymandias/the-repository/raw/main/the-repository.unistore",
         "version": 3,
-        "revision": 34
+        "revision": 35
     },
     "storeContent": [
         {
@@ -447,6 +447,46 @@
                 "description": "WIP Super Mario Galaxy Port.",
                 "license": "none",
                 "last_updated": "Fri Apr  5 03:06:11 2024"
+            }
+        },
+        {
+            "TRexGame.3dsx": [
+                {
+                    "type": "downloadRelease",
+                    "repo": "BlyZeDev/T-Rex-Game-3DS",
+                    "file": "TRexGame.3dsx",
+                    "output": "%3DSX%/TRexGame.3dsx"
+                }
+            ],
+            "TRexGame.cia": [
+                {
+                    "type": "downloadRelease",
+                    "repo": "BlyZeDev/T-Rex-Game-3DS",
+                    "file": "TRexGame.cia",
+                    "output": "TRexGame.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/TRexGame.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/TRexGame.cia"
+                }
+            ],
+            "info": {
+                "title": "Chrome T-Rex Game",
+                "author": "BlyZeDev",
+                "version": "v1.1.0",
+                "category": [
+                    "game"
+                ],
+                "console": [
+                    "3DS"
+                ],
+                "description": "The Google Chrome T-Rex game recreated to run natively on Nintendo 3DS.",
+                "license": "none",
+                "last_updated": "Tue Oct 22 01:08:00 2024"
             }
         }
     ]
